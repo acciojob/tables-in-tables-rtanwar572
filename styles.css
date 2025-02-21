@@ -1,2 +1,52 @@
 
 /* Your CSS Code here. */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.main-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+.main-table td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+caption {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.nested-table-2, .nested-table-1, .nested-table-3, .nested-table-4 {
+    vertical-align: top;
+}
+
+.nested-table-2 table,
+.nested-table-1 table,
+.nested-table-3 table,
+.nested-table-4 table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.nested-table-2 td,
+.nested-table-1 td,
+.nested-table-3 td,
+.nested-table-4 td {
+    border: 1px solid grey;
+    padding: 5px;
+}
+
+.nested-link {
+    color: purple;
+    text-decoration: underline;
+}
+
+.black-background {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
